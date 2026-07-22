@@ -4,7 +4,7 @@
 # Jekyll theme for technical documentation on GitHub Pages.
 # ---------------------------------------------------------------------------
 
-title: CipherTrust Manager — Installation & Setup Guide
+title: Thales CipherTrust Manager Deployment Guide
 description: >-
   A step-by-step, command-level guide to deploying and performing the initial
   configuration of a Thales CipherTrust Manager virtual appliance on VMware
@@ -20,6 +20,16 @@ theme: just-the-docs
 
 # Clean, trailing-slash URLs (e.g. /docs/overview/ instead of /docs/overview.html)
 permalink: pretty
+
+# Apply the Just the Docs "default" layout (sidebar nav, search, theme styling)
+# to every page. Without this, pages that don't set a layout in their front
+# matter render as raw, unstyled HTML. The home page overrides this with
+# `layout: home` in its own front matter.
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
 
 # ---- Navigation & layout --------------------------------------------------
 aux_links:
@@ -62,7 +72,7 @@ callouts:
 
 # ---- Footer ---------------------------------------------------------------
 footer_content: >-
-  Prepared by CybSmyth. This is an independent technical walkthrough based on
+  Prepared by SmittyStuff. This is an independent technical walkthrough based on
   publicly available Thales documentation; it is not affiliated with or endorsed
   by Thales. Verify every step against the official Thales product documentation
   for your specific CipherTrust Manager version before use in production.

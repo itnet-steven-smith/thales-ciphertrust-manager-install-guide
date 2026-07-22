@@ -54,6 +54,7 @@ By the end you will have:
 | [Initial Configuration]({% link docs/initial-configuration.md %}) | First boot, networking, web console, `ksctl`, hardening |
 | [Connecting Endpoints]({% link docs/connectors.md %}) | KMIP, CTE, CTE-U, and other protocols |
 | [SIEM Integration (Splunk)]({% link docs/siem-splunk.md %}) | Forwarding CM and CTE logs to Splunk |
+| [Automation with KSCTL]({% link docs/ksctl.md %}) | Command-line automation of CM with `ksctl` — install to CTE, with all commands and examples |
 | [Verification & Next Steps]({% link docs/verification.md %}) | Confirming a healthy install and where to go next |
 
 {: .note }

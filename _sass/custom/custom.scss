@@ -1,0 +1,21 @@
+// ---------------------------------------------------------------------------
+// Custom style overrides for the CipherTrust Manager guide (Just the Docs).
+// This file is imported last by the theme, so rules here win.
+// ---------------------------------------------------------------------------
+
+// The theme caps the sidebar header at a fixed 60px height on desktop
+// (height + max-height: $header-height) and vertically centers the title.
+// When the site title wraps to more than one line, the extra lines overflow
+// the box and get clipped (the top of the product name was being cut off).
+// Let the header grow to fit the full title instead.
+.site-header {
+  @include mq(md) {
+    height: auto;
+    max-height: none;
+  }
+}
+
+.site-title {
+  // Tighter leading so a two-line product name reads as one tidy block.
+  line-height: 1.25;
+}

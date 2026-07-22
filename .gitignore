@@ -10,3 +10,4 @@ vendor/
 # Local publishing helpers (not part of the site)
 PUBLISH.md
 publish.sh
+CLAUDE.md
