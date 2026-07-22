@@ -1,6 +1,6 @@
 ---
 title: Connecting Endpoints
-nav_order: 7
+nav_order: 8
 ---
 
 # Connecting Endpoints (KMIP, CTE, CTE-U & more)

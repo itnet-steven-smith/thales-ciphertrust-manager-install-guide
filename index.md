@@ -52,6 +52,7 @@ By the end you will have:
 | [Deployment → Private Cloud (VMware)]({% link docs/deploy-vmware.md %}) | Deploying the OVA on vSphere/ESXi |
 | [Deployment → Public Cloud (AWS)]({% link docs/deploy-aws.md %}) | Deploying the Marketplace/AMI image on EC2 |
 | [Initial Configuration]({% link docs/initial-configuration.md %}) | First boot, networking, web console, `ksctl`, hardening |
+| [HSM Root of Trust (Luna)]({% link docs/hsm.md %}) | Installing/initializing Luna HSMs, roles & authority, redundant HSMs across two data centers, and anchoring CM's root of trust |
 | [Connecting Endpoints]({% link docs/connectors.md %}) | KMIP, CTE, CTE-U, and other protocols |
 | [SIEM Integration (Splunk)]({% link docs/siem-splunk.md %}) | Forwarding CM and CTE logs to Splunk |
 | [Automation with KSCTL]({% link docs/ksctl.md %}) | Command-line automation of CM with `ksctl` — install to CTE, with all commands and examples |

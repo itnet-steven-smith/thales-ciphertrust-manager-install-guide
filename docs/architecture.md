@@ -102,6 +102,12 @@ Valid HSM types for `ksctl hsm setup` include `luna`, `lunapci`, `lunatct`,
 `aws`, `dpod`, and `ibm-hpcs`. Exact parameters vary per HSM — always follow the
 Thales guide for your specific model.
 
+{: .note }
+> For the full treatment — installing and initializing Luna HSMs, roles and
+> levels of authority, building **redundant HSMs across two data centers**, the
+> complete `ksctl hsm` setup, and which keys are transmitted to endpoints — see
+> the [HSM Root of Trust (Luna)]({% link docs/hsm.md %}) section.
+
 ## How endpoints connect
 
 The other half of the architecture is *outward-facing*: how the systems that
