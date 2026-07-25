@@ -16,6 +16,10 @@ The guide covers:
 - Connecting endpoints via KMIP, CTE, and CTE-U.
 - SIEM integration, including **Splunk**.
 
+## 🔗 Live guide
+
+**https://smittystuff.github.io/thales-ciphertrust-manager-install-guide/**
+
 ## Local preview
 
 ```bash
