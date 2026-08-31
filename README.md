@@ -18,7 +18,7 @@ The guide covers:
 
 ## 🔗 Live guide
 
-**https://smittystuff.github.io/thales-ciphertrust-manager-install-guide/**
+**https://itnet-steven-smith.github.io/thales-ciphertrust-manager-install-guide/**
 
 ## Local preview
 

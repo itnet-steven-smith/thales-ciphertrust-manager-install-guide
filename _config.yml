@@ -13,7 +13,7 @@ description: >-
 
 # These two values are rewritten automatically at publish time to match your
 # GitHub account and repository name.
-url: "https://SmittyStuff.github.io"
+url: "https://itnet-steven-smith.github.io"
 baseurl: "/thales-ciphertrust-manager-install-guide"
 
 theme: just-the-docs
@@ -34,7 +34,7 @@ defaults:
 # ---- Navigation & layout --------------------------------------------------
 aux_links:
   "View on GitHub":
-    - "https://github.com/SmittyStuff/thales-ciphertrust-manager-install-guide"
+    - "https://github.com/itnet-steven-smith/thales-ciphertrust-manager-install-guide"
 aux_links_new_tab: true
 
 # Show a "table of contents" of child pages on parent pages
@@ -72,7 +72,7 @@ callouts:
 
 # ---- Footer ---------------------------------------------------------------
 footer_content: >-
-  Prepared by SmittyStuff. This is an independent technical walkthrough based on
+  Prepared by itnet-steven-smith. This is an independent technical walkthrough based on
   publicly available Thales documentation; it is not affiliated with or endorsed
   by Thales. Verify every step against the official Thales product documentation
   for your specific CipherTrust Manager version before use in production.
@@ -81,7 +81,7 @@ last_edit_timestamp: true
 last_edit_time_format: "%b %e %Y at %I:%M %p"
 gh_edit_link: true
 gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/SmittyStuff/thales-ciphertrust-manager-install-guide"
+gh_edit_repository: "https://github.com/itnet-steven-smith/thales-ciphertrust-manager-install-guide"
 gh_edit_branch: "main"
 gh_edit_view_mode: "tree"
 
